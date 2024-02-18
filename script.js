@@ -96,7 +96,7 @@ function showchances() {
         body.innerText = "you life 0 before chance"
         body.classList.add("style")
               btn.style.visibility = "visible"
-
+             resetbtn.style.visibility = "hidden"
 
     }
 
@@ -107,6 +107,8 @@ function chanceandlife() {
         body.innerText = "game over"
         body.classList.add("style")
         btn.style.visibility = "visible"
+        resetbtn.style.visibility = "hidden"
+
 
 
 
@@ -119,6 +121,10 @@ function showwinner2() {
         body.innerHTML = `you lost  <br> your score = ${userscore} <br> computer score = ${comptscore}`
         body.classList.add("ram")
         btn.style.visibility = "visible"
+        
+        resetbtn.style.visibility = "hidden"
+
+
 
 
     }
@@ -127,6 +133,9 @@ function showwinner2() {
         body.classList.add("ram")
         body.classList.add("green")
               btn.style.visibility = "visible"
+              resetbtn.style.visibility = "hidden"
+
+
 
 
 
@@ -136,6 +145,8 @@ function showwinner2() {
         body.classList.add("ram")
         body.classList.add("black")
         btn.style.visibility = "visible"
+        resetbtn.style.visibility = "hidden"
+
 
     }
 }
