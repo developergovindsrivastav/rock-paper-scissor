@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="intro"> rock paper scissor</h1>
+    <div id="main">
+    <div class="choices">
+        <div class="choice">
+            <img class="choices1" id="rock" src="rock.webp" alt="rock">
+        </div>
+        <div class="choice">
+            <img class="choices1" id="paper" src="paper.webp" alt="rock">
+        </div>
+        <div class="choice">
+            <img class="choices1" id="scissor" src="scissors.webp" alt="rock">
+        </div>
+    </div>
+    <div class="life">
+        <h1 class="remainlife">remain life</h1>
+        <img class="lifeimg" src="dlf.pt-pixel-heart-png-240464.webp" alt="life.text">
+        <span class="multiply">*</span>
+        <span class="nmber">6</span>
+    </div>
+    <div class="move">
+        <h1>Chances = </h1>
+        <p class="chancesremain">20</p>
+    </div>
+    <div class="score-board">
+        <div class="user">
+            <p>User</p>
+
+    <p id="userscore">0</p>
+        </div>
+        <div class="comp">
+            <p>Comp</p>
+            <p id="compscore">0</p>
+        </div>
+    </div>
+    <div class="display">
+     <p id="display-board"> play your move</p>
+    </div>
+</div>
+<div class="resetteri">
+    <button class="newgame">reset game</button>
+</div>
+<button class="reset">new game</button>
+<audio id="losing" src="mixkit-losing-piano-2024.wav"></audio>
+<audio id="sucess" src="success-1-6297.mp3"></audio>
+<audio id="draw" src="mixkit-arcade-space-shooter-dead-notification-272.wav"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
